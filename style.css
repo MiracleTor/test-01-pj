@@ -7,7 +7,7 @@
 
 body {
     min-height: 100vh;
-    background: url('photo1.jpg') no-repeat;
+    background: url('เย็นตาโฟ5.JPG') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -31,7 +31,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, .1);
+    background: rgba(159, 67, 14, 0.915);
     backdrop-filter: blur(50px);
     z-index: -1;
 }
@@ -43,7 +43,7 @@ body {
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .4), transparent);
+    background: linear-gradient(90deg, transparent, rgba(255, 245, 248, 0.4), transparent);
     transition: .5s;
 }
 
