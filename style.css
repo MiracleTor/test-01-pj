@@ -5,12 +5,17 @@
     font-family: "Poppins", sans-serif;
 }
 
+
 body {
-    min-height: 100vh;
-    background: url('เย็นตาโฟ5.jpg') no-repeat;
+    max-width: 100%;
+    width: 100%;
+    background: url('เย็นตาโฟ1.jpg') no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: left top 3.8rem;
+    object-fit: cover;
+    
 }
+
 
 .header {
     position: fixed;
@@ -43,7 +48,7 @@ body {
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 245, 248, 0.4), transparent);
+    background: linear-gradient(90deg, transparent, rgba(251, 118, 10, 0.4), transparent);
     transition: .5s;
 }
 
