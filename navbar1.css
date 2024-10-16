@@ -20,11 +20,11 @@ a, a:hover{
     align-items: center;
     justify-content: space-between;
     padding: 10px 25px;
-    background: #f4f4f4;
+    background: #878787;
 }
 
 .top-bar span{
-    color: #000000;
+    color: #e5e5e5;
 }
 
 .top-bar ul{
@@ -37,7 +37,7 @@ a, a:hover{
 }
 
 .top-bar a{
-    color: #000000;
+    color: #ffffff;
 }
 
 .top-bar a:hover{
@@ -45,7 +45,7 @@ a, a:hover{
 }
 
 nav{
-    background: #20043bd2;
+    background: #523270d2;
     padding: 5px 20px;
     display: flex;
     align-items: center;
