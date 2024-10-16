@@ -135,7 +135,7 @@ nav a:hover{
     position: relative;
     grid-template-rows: auto 1fr;
     border-radius: 15px;
-    box-shadow: 0 0 15px rgba(240, 233, 233, 0.2);
+    box-shadow: 0 0 15px rgb(255, 255, 255);
 }
 
 .food-items img {
@@ -162,7 +162,7 @@ h1 {
 }
 
 .details-sub>h5 {
-    color: #fcfcfc;
+    color: #000000;
     font-weight: 600;
     font-size: 23px;
 }
@@ -172,7 +172,7 @@ h1 {
 }
 
 .details>p {
-    color: #6f6f6f;
+    color: #000000;
     font-size: 15px;
     line-height: 28px;
     font-weight: 400;
@@ -193,7 +193,7 @@ h1 {
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     nav{
         display: block;
         position: relative;
