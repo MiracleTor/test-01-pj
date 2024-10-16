@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankomaki Tokyo</title>
+    <link rel="stylesheet" type="text/css" href="navbar1.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+
+<body>
+    <div class="top-bar">
+        <span><ion-icon name="call-outline"></ion-icon> 088-658-2959</span>
+        <ul>
+            <li><a href="https://www.facebook.com/profile.php?id=61564913075218&mibextid=LQQJ4d"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></ion-icon></a></li>
+        </ul>
+    </div>
+
+    <nav>
+        <div class="logo">
+            <a href="#"><img src="logo111.png" alt="logo"> อันโกะมากิ โตเกียว โคราช</a>
+        </div>
+        <div class="toggle">
+            <a href="#"><ion-icon name="menu-outline"></ion-icon></a>
+        </div>
+        <ul class="menu">
+            <li><a href="#">แกลรอรี่</a></li>
+            <li><a href="#">ราคาเดริเวอร์รี่</a></li>
+            <li><a href="menudrink.html">เมนูเครื่องดื่ม</a></li>
+            <li><a href="#">โลเคชั่น</a></li>
+            <li><a href="#">ติดต่อ</a></li>
+        </ul>
+     </nav>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+     <script>
+
+        $(function(){
+            $(".toggle").on("click", function(){
+                if($(".menu").hasClass("active")){
+                  $(".menu").removeClass("active");
+                  $(this).find("a").html("<ion-icon name='menu-outline'></ion-icon>");
+                } else{
+                  $(".menu").addClass("active");
+                  $(this).find("a").html("<ion-icon name='close-outline'></ion-icon>");
+                }
+                }
+             )});
+
+     </script>
+
+<div class="menu1">
+    <div class="heading">
+        <h1>เลือกไส้ โตเกียว <br> ได้เลยจ้า </h1>
+        <h3>&mdash; เมนู &mdash; </h3>
+    </div>
+
+    <div class="food-items">
+        <img src="คัสตาร์ดครีม 15 บาท.jpg">
+        <div class="details">
+            <div class="details-sub">
+                <h5>คัสตาร์ดครีม</h5>
+                <h5 class="price">15 บาท</h5>
+            </div>
+            <p> ไส้หวานพอดี อร่อยงับ
+            </p>
+            <button> Add to cart</button>
+        </div>
+    </div>
+
+
+    <div class="food-items">
+        <img src="คัสตาร์ด อัลมอนด์ 20 บาท.jpg">
+        <div class="details">
+            <div class="details-sub">
+                <h5>คัสตาร์ด อัลมอนด์</h5>
+                <h5 class="price">20 บาท</h5>
+            </div>
+            <p>ไส้หวานพอดี กินคู่กับอัลมอนด์ ฟินแน่นอน</p>
+            <button> Add to cart</button>
+        </div>
+    </div>
+
+    <div class="food-items">
+        <img src="คัสตาร์ด ฝอยทอง 20 บาท.jpg">
+        <div class="details">
+            <div class="details-sub">
+                <h5>คัสตาร์ด ฝอยทอง</h5>
+                <h5 class="price">20 บาท</h5>
+            </div>
+            <p>ไส้หวานพอดี กินคู่กับฝอยทอง ฟินไปอีก*-*</p>
+            <button> Add to cart</button>
+        </div>
+    </div>
+
+    <div class="food-items">
+        <img src="ดาร์คชอคครีม 20 บาท.jpg">
+        <div class="details">
+            <div class="details-sub">
+                <h5>ดาร์คชอคครีม</h5>
+                <h5 class="price">20 บาท</h5>
+            </div>
+            <p>เป็นดาร์คชอคครีม ที่เข้มขึ้นจริงหวานพอดี อร่อย*-*</p>
+            <button> Add to cart</button>
+        </div>
+    </div>
+
+    <div class="food-items">
+        <img src="ดาร์คชอค อัลมอนด์ 25 บาท.jpg">
+        <div class="details">
+            <div class="details-sub">
+                <h5>ดาร์คชอค อัลมอนด์</h5>
+                <h5 class="price">25 บาท</h5>
+            </div>
+            <p>ดาร์คชอคครีมกินคู่กับอัลมอนด์บอกเลยว่าดีงับ *-*</p>
+            <button> Add to cart</button>
+        </div>
+    </div>
+
+    <div class="food-items">
+        <img src="เนยถั่ว SKIPPY 20 บาท.jpg">
+        <div class="details">
+            <div class="details-sub">
+                <h5>เนยถั่ว SKIPPY</h5>
+                <h5 class="price">20 บาท</h5>
+            </div>
+            <p>เนยถั่วบอกได้เลยว่า อร่อยแน่นอน เลิฟๆ เนย ถั่ว<br>
+            เพิ่ม อัลมอนด์ 5 บาท<br>
+            </p>
+            <button> Add to cart</button>
+        </div>
+    </div>
+
+    <div class="food-items">
+        <img src="ฝอยทอง 15 บาท.jpg">
+        <div class="details">
+            <div class="details-sub">
+                <h5>ฝอยทอง</h5>
+                <h5 class="price">15 บาท</h5>
+            </div>
+            <p>ฝอยทองอร่อยงับ
+            </p>
+            <button> Add to cart</button>
+        </div>
+    </div>
+
+    <div class="food-items">
+        <img src="ฝอยทอง อัลมอนด์ 20 บาท.jpg">
+        <div class="details">
+            <div class="details-sub">
+                <h5>ฝอยทอง อัลมอนด์</h5>
+                <h5 class="price">20 บาท</h5>
+            </div>
+            <p>ฝอยทองกินคู่กับอัลมอนด์ ฟินสุดๆเลยงับ
+            </p>
+            <button> Add to cart</button>
+        </div>
+    </div>
+    
+
+    <div class="food-items">
+        <img src="พริกเผาหมูหยอง 15 บาท.jpg">
+        <div class="details">
+            <div class="details-sub">
+                <h5>พริกเผาหมูหยอง 15 บาท</h5>
+                <h5 class="price">15 บาท</h5>
+            </div>
+            <p>พริกเผา+หมูหยอง กลมกล่อมแน่นอน*-*</p>
+            <button> Add to cart</button>
+        </div>
+    </div>
+
+    <div class="food-items">
+        <img src="ไข่+ไก่สับ+ซอสมะเขือ 15 บาท.jpg">
+        <div class="details">
+            <div class="details-sub">
+                <h5>ไข่+ไก่สับ+ซอสมะเขือ</h5>
+                <h5 class="price">15 บาท</h5>
+            </div>
+            <p>ไส้ไข่+ไก่สับ สามารถเลือกซอสได้นะ ฟรีซอสงับ<br>
+            ซอสมะเขือเทศ<br>
+            ซอสพริก <br>
+            ซอสพริกไทย+ซอสดำ<br>
+        </p>
+            <button> Add to cart</button>
+        </div>
+    </div>
+
+    <div class="food-items">
+        <img src="ดับเบิ้ลเอ้ก 15 บาท.jpg">
+        <div class="details">
+            <div class="details-sub">
+                <h5>ดับเบิ้ลเอ้ก</h5>
+                <h5 class="price">15 บาท</h5>
+            </div>
+            <p>ไข่นกกระทา 2 ฟอง โรยพริกไทย+ซอส ฟินแน่นอน</p>
+            <button> Add to cart</button>
+        </div>
+    </div>
+
+    <div class="food-items">
+        <img src="แฮม+ไข่ 18 บาท.jpg">
+        <div class="details">
+            <div class="details-sub">
+                <h5>แฮม+ไข่</h5>
+                <h5 class="price">18 บาท</h5>
+            </div>
+            <p>เลือกซอสได้นะงับ<br>
+                ซอสดำ+พริกไทย<br>
+                ซอสมะเขือเทศ<br>
+                ซอสพริก<br>
+            </p>
+            <button> Add to cart</button>
+        </div>
+    </div>
+
+    <div class="food-items">
+        <img src="ไส้กรอก สโมคกี้ 15 บาท.jpg">
+        <div class="details">
+            <div class="details-sub">
+                <h5>ไส้กรอก สโมคกี้</h5>
+                <h5 class="price">15 บาท</h5>
+            </div>
+            <p>ไส้กรอก หนังกรอบ กรุบกรับ กินคู่กับซอสมะเขือเทศ อร่อยงับ*-*</p>
+            <button> Add to cart</button>
+        </div>
+    </div>
+
+    <div class="food-items">
+        <img src="ไส้กรอก+ชีส 25 บาท.jpg">
+        <div class="details">
+            <div class="details-sub">
+                <h5>ไส้กรอก+ชีส</h5>
+                <h5 class="price">25 บาท</h5>
+            </div>
+            <p>ไส้กรอกกินคู่กับชีสเข้ากันดีเลยงับ*-*</p>
+            <button> Add to cart</button>
+        </div>
+    </div>
+
+    <div class="food-items">
+        <img src="ไส้กรอก+แฮม 20.jpg">
+        <div class="details">
+            <div class="details-sub">
+                <h5>ไส้กรอก+แฮม</h5>
+                <h5 class="price">20 บาท</h5>
+            </div>
+            <p>ไส้กรอกกินคู่กับแฮม เต็มๆคำไปเลยงับ</p>
+            <button> Add to cart</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
